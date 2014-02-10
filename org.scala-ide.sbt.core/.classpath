@@ -19,5 +19,7 @@
 	<classpathentry kind="lib" path="target/lib/play-iteratees_2.10.jar"/>
 	<classpathentry kind="lib" path="target/lib/play-json_2.10.jar"/>
 	<classpathentry kind="lib" path="target/lib/scala-stm_2.10.jar"/>
+	<classpathentry kind="lib" path="target/lib/rxjava-scala.jar"/>
+	<classpathentry kind="lib" path="target/lib/rxjava-core.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

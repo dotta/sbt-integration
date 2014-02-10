@@ -378,7 +378,7 @@ class ProjectsImportPage(currentSelection: IStructuredSelection) extends WizardD
 
       import scala.concurrent.ExecutionContext.Implicits.global
 
-      val projects = SbtBuild.buildFor(directory).projects()
+      val projects = SbtBuild(directory).projects()
       Await.result(projects, scala.concurrent.duration.Duration.Inf)
     } else {
       Seq.empty
